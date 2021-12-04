@@ -4,7 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Box } from "@mui/system";
 import React from "react";
 
-const MobileManu = ({ handleOpenNavMenu, anchorElNav, handleCloseNavMenu }) => {
+const MobileMenu = ({ handleOpenNavMenu, anchorElNav, handleCloseNavMenu }) => {
   return (
     <>
       <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -56,4 +56,4 @@ const MobileManu = ({ handleOpenNavMenu, anchorElNav, handleCloseNavMenu }) => {
   );
 };
 
-export default MobileManu;
+export default MobileMenu;

@@ -6,7 +6,8 @@
 }
 
 textarea {
-  width: 550px;
+  width: 500px;
+  padding: 30px;
 }
 
 .contact_form input {
@@ -27,5 +28,6 @@ textarea {
 @media only screen and (max-width: 768px) {
   textarea {
     width: 260px;
+    padding: 5px;
   }
 }

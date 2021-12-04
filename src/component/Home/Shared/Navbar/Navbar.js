@@ -7,8 +7,8 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import logo from "../../../img/logo.png";
 import UsersMenu from "./UsersMenu";
-import MobileManu from "./MobileManu";
 import useAuth from "../../../hooks/useAuth";
+import MobileMenu from "./MobileMenu";
 
 const Navbar = () => {
   const { user } = useAuth();
@@ -50,12 +50,12 @@ const Navbar = () => {
               </Typography>
 
               {/* mobileMenu */}
-              <MobileManu
+              <MobileMenu
                 handleOpenNavMenu={handleOpenNavMenu}
                 anchorElNav={anchorElNav}
                 handleCloseNavMenu={handleCloseNavMenu}
                 user={user}
-              ></MobileManu>
+              ></MobileMenu>
 
               <Typography
                 variant="h6"

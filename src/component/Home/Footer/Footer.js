@@ -9,14 +9,14 @@ const Footer = () => {
     <Box
       sx={{
         bgcolor: "black",
-        color: "white",
+        color: "rgb(185, 183, 183)",
         marginTop: "50px",
         padding: "50px 0",
       }}
     >
-      <Container>
-        <Grid container>
-          <Grid item md={3} class="col_item_1">
+      <Container className="footer_container">
+        <Box className="footer_content">
+          <Box class="col_item">
             <img src={logo} alt="logo" />
             <p> 2238 Partha Elen Street,</p>
             <p> New Jersey,</p>
@@ -43,19 +43,37 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </Grid>
-          <Grid md={3} item>
-            <h3> Useful link </h3>
+          </Box>
+          <Box className="col_item_2">
+            <h3>Useful Links</h3>
             <ul>
               <li>Payment & Tax</li>
-              <li>Terms of Service</li>
-              <li>Your Account </li>
-              <li>Privacy </li>
+              <li>Your Account</li>
+              <li>Terms of Service </li>
+              <li>Privacy Policy </li>
             </ul>
-          </Grid>
-          <Grid item md={3}></Grid>
-          <Grid item md={3}></Grid>
-        </Grid>
+          </Box>
+          <Box className="col_item_2">
+            <h3>Our company</h3>
+            <ul>
+              <li>About</li>
+              <li>Media</li>
+              <li>Blog </li>
+              <li>Contact Us </li>
+            </ul>
+          </Box>
+          <Box className="col_item_2">
+            <h3> Subscribe to Newsletter</h3>
+            <ul>
+              <li>396-987 456 885</li>
+              <li>help@visume.link</li>
+              <input
+                type="text"
+                style={{ padding: "10px", marginTop: "10px" }}
+              />
+            </ul>
+          </Box>
+        </Box>
       </Container>
     </Box>
   );

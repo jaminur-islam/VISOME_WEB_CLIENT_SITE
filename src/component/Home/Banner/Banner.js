@@ -50,12 +50,8 @@ const Banner = () => {
           </Box>
         </Box>
 
-        <Box sx={{ textAlign: "center", margin: "20px 0" }}>
-          <img
-            style={{ width: "100%", height: "150px" }}
-            src={bannerFooterImg}
-            alt=""
-          />
+        <Box sx={{ textAlign: "center", margin: "30px 0" }}>
+          <img style={{ width: "100%" }} src={bannerFooterImg} alt="" />
         </Box>
       </Container>
     </Box>

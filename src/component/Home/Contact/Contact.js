@@ -12,14 +12,14 @@ const Contact = () => {
       </Box>
       <form className="contact_form">
         <div>
-          <input type="text" />
-          <input type="text" />
+          <input type="text" placeholder="Name*" />
+          <input type="text" placeholder="Your email*" />
         </div>
         <div>
-          <input type="text" />
-          <input type="text" />
+          <input type="text" placeholder="Your Mobile Number" />
+          <input type="text" placeholder="Education / Profession (optional)" />
         </div>
-        <textarea name="" id="" rows="5"></textarea>
+        <textarea name="" id="" rows="5" placeholder="Your Text"></textarea>
         <br />
         <Button sx={{ margin: "10px" }} variant="contained">
           Let's Talk{" "}

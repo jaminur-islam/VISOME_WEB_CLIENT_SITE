@@ -61,7 +61,13 @@ const UsersMenu = ({
                 {user?.displayName}
               </Typography>
               <Typography>{user?.email}</Typography>
-              <Button onClick={handleSignOut}>Log Out</Button>
+              <Button
+                variant="outlined"
+                sx={{ marginTop: "10px" }}
+                onClick={handleSignOut}
+              >
+                Log Out
+              </Button>
             </Box>
           </Menu>
         </Box>
