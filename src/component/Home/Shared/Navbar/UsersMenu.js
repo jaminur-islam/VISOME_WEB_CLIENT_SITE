@@ -5,6 +5,7 @@ import {
   IconButton,
   Menu,
   Tooltip,
+  Typography,
 } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
@@ -56,8 +57,10 @@ const UsersMenu = ({
               }}
               onClick={handleCloseNavMenu}
             >
-              <Button>Account</Button>
-              <Button>Dashboard</Button>
+              <Typography sx={{ mx: "auto", fontSize: 20 }}>
+                {user?.displayName}
+              </Typography>
+              <Typography>{user?.email}</Typography>
               <Button onClick={handleSignOut}>Log Out</Button>
             </Box>
           </Menu>

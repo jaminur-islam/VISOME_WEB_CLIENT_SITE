@@ -1,3 +1,4 @@
+/* banner design */
 .banner-container {
   margin-top: 80px;
   display: flex;
@@ -8,13 +9,38 @@
   width: 500px;
 }
 
+/* start section design */
+.start_container_content {
+  margin-top: 200px;
+}
+
+/* about section */
+.banner-img-section .about_img {
+  width: 400px;
+}
+
+/* responsive on small device */
 @media only screen and (max-width: 768px) {
+  /* banner  */
   .banner-img-section img {
     width: 100%;
   }
-
   .banner-container {
     margin-top: 40px;
     flex-direction: column-reverse;
+  }
+
+  /* start section */
+  .start_img {
+    width: 100%;
+  }
+  .start_container_content {
+    margin-top: 50px;
+  }
+
+  /* About */
+  .banner-img-section .about_img {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }

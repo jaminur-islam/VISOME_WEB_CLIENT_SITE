@@ -1,0 +1,23 @@
+/* col-1 design */
+.col_item_1 p {
+  margin: 0;
+  margin: 5px 0;
+}
+
+.col_item_1 ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  color: rgb(0, 0, 0);
+
+  margin-right: auto;
+}
+
+.col_item_1 ul li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* col-2 design */

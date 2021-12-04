@@ -7,13 +7,13 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <Box>
+    <Box id="banner">
       <Container>
         <Box className="banner-container">
           <Box>
             <Typography
               variant="p"
-              style={{ color: "#51C9FF", fontSize: "16px" }}
+              style={{ color: "#51C9FF", fontSize: "19px" }}
             >
               Stand out of the crowd
             </Typography>
